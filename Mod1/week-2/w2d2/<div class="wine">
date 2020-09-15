@@ -1,0 +1,114 @@
+///////////
+
+
+//  Easy going
+
+for(let i = 0; i <= 20; i++){
+    console.log(i)
+}
+
+// Get even
+
+for(let i = 0; i <= 200; i+=2){
+    console.log(i)
+}
+
+// Fizzbuzz 
+
+/* o- 100
+i is % by 3 = fizz
+i is % by 5 = buzz
+i is % by 3 AND 5 = fizz buzz */
+
+for (let i = 1; i <=100; i++) {
+    if (i % 5 === 0 && i % 3 === 0) {
+      console.log('Fizz Buzz');
+}else if (i % 5 === 0) {
+      console.log('Buss');
+} else if ( (i % 3 === 0) {
+       console.log ('Fizz') }
+}
+
+
+
+// Wild Wild Life
+
+const wolfy = ["Wolfy", "wolf", 16, "Yukon Territory"]
+const sharky = ["Sharky", "shark", 20, "Left Coast"]
+const plantee = ["Plantee", "plant",  5000 , "Mordor"]
+const porgee = ["Porgee", "Porg", 186, "Ahch-To"]
+const dart = ["D'Art" , "Demogorgan Dog", 2, "Upside Down"]
+
+plantee[2] = 5001
+console.log(plantee)
+
+wolfy[3] = "Gotham City"
+wolfy.splice(0 , 1, "GameBoy")
+console.log(wolfy)
+
+dart.push("Hawkins")
+console.log(dart)
+
+wolfy.splice (0, 1, 'Gameboy')
+console.log(wolfy);
+
+
+// Yell at the Ninja Turtle Dudes 
+
+// 1
+const turtles = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo']
+
+// 2
+for (const turtlePower of turtles) {
+    console.log(turtlePower.toUpperCase());
+}
+
+
+// Methods, re-v
+console.log (favMovies [8]);
+
+//1
+favMovies.sort();
+
+//2
+favMovies.pop();
+
+//3
+favMovies.push('Guardians of the Galaxy'); 
+
+//4
+favMovies.reverse();
+
+// 6
+favMovies.unshift('The Big Lebowski');
+
+// 7
+favMovies.splice(15, 1, 'Avatar'); //permanant changes to the array
+
+// 9
+const secondHalf = favMovies.slice(10, 20);
+console.log(secondHalf);
+
+// 10
+console.log(favMovies)
+
+
+// Excited kitten
+// Issues on this one 
+
+for (d = 0; d < 20; d++) {
+    console.log('Love me, pet me! HSSSSSS!')
+}
+
+// Find the median
+// I know i MESSSED this Up
+
+let sum = nums.reduce((acc, val) => {
+});
+console.log(sum)
+
+const median = (sum / nums.length);
+console.log(median)
+
+const theMedian = Math.floor(median);
+console.log(theMedian)
